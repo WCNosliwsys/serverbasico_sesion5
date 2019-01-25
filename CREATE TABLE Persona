@@ -1,0 +1,15 @@
+CREATE TABLE Persona (
+       Cod_Persona          int NOT NULL PRIMARY KEY 
+
+AUTO_INCREMENT,
+       Nombre               varchar(45) NULL,
+       Apellidos     varchar(45) NULL,
+       
+       Sexo                 bit NULL,
+       celular              char(9) NULL,
+       Fecha_Ingreso        datetime NULL,
+       Domicilio            varchar(100) NULL,
+       Usuario         varchar(30) NULL,
+       Contraseña    varchar(30) NULL
+)
+;
